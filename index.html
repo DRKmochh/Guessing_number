@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessin number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <label id="testo">Inserisci il tuo tentativo, il numero selezionato dalla macchina è tra 1 e 10, attenzione, se lasci vuoto esso verrà contato come tentativo. In un futuro aggiornamento verrà implementato il controllo del tentativo, nel mentre, buona fortuna!!</label>
+    <br>
+    <input id="input" type="number" min=1 max=10 value=1 onkeydown="return event.key === 'ArrowUp' || event.key === 'ArrowDown'"><br><br>
+    <button class="confermato" id="conferma">Conferma</button>
+
+    <h1 id="myh1"></h1>
+    <h2 id="myh2"></h2>
+
+    <button class="rigiocato" id="rigioca">Premi per rigiocare</button>
+
+    <h6 id="crediti">Creato da <a href="https://github.com/DRKmochh">DRKmochh</a> </h6>
+
+    <!--<a href="mailto:sdfd">PROVA</a>-->
+
+    <script src="index.js"></script>
+</body>
+</html>
